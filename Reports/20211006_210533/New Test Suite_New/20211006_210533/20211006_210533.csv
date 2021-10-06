@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite_New,Chrome 94.0.4606.71,,,2021-10-06 21:06:06,2021-10-06 21:09:34,3m - 28.330s,FAILED
+,,,,,,,
+Test Cases/NewLetter/New_1,Chrome 94.0.4606.71,,,2021-10-06 21:06:07,2021-10-06 21:07:35,1m - 28.040s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.71,,,2021-10-06 21:06:08,2021-10-06 21:06:55,47.036s,PASSED
+"navigateToUrl(""http://live.techpanda.org/index.php/customer/account/login/"")",Chrome 94.0.4606.71,,,2021-10-06 21:06:55,2021-10-06 21:07:20,24.873s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/input_Sign Up for Our Newsletter_email""), email)",Chrome 94.0.4606.71,,,2021-10-06 21:07:20,2021-10-06 21:07:29,9.133s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Login/button_Subscribe""))",Chrome 94.0.4606.71,,,2021-10-06 21:07:29,2021-10-06 21:07:33,3.994s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Customer Login/span_Thank you for your subscription""), ""Thank you for your subscription."")",Chrome 94.0.4606.71,,,2021-10-06 21:07:33,2021-10-06 21:07:35,2.214s,PASSED
+,,,,,,,
+Test Cases/NewLetter/New_2,Chrome 94.0.4606.71,,,2021-10-06 21:07:35,2021-10-06 21:08:42,1m - 7.081s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.71,,,2021-10-06 21:07:36,2021-10-06 21:08:12,36.206s,PASSED
+"navigateToUrl(""http://live.techpanda.org/index.php/customer/account/login/"")",Chrome 94.0.4606.71,,,2021-10-06 21:08:12,2021-10-06 21:08:36,24.192s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/input_Sign Up for Our Newsletter_email""), email)",Chrome 94.0.4606.71,,,2021-10-06 21:08:36,2021-10-06 21:08:40,3.288s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Login/button_Subscribe""))",Chrome 94.0.4606.71,,,2021-10-06 21:08:40,2021-10-06 21:08:41,1.434s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Customer Login/div_This is a required field""), ""THIS IS A REQUIRED FIELD."")",Chrome 94.0.4606.71,,,2021-10-06 21:08:41,2021-10-06 21:08:42,1.269s,PASSED
+,,,,,,,
+Test Cases/NewLetter/New_3,Chrome 94.0.4606.71,,,2021-10-06 21:08:42,2021-10-06 21:09:34,52.015s,FAILED
+"openBrowser("""")",Chrome 94.0.4606.71,,,2021-10-06 21:08:43,2021-10-06 21:09:11,28.087s,PASSED
+"navigateToUrl(""http://live.techpanda.org/index.php/customer/account/login/"")",Chrome 94.0.4606.71,,,2021-10-06 21:09:11,2021-10-06 21:09:28,16.643s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/input_Sign Up for Our Newsletter_email""), email)",Chrome 94.0.4606.71,,,2021-10-06 21:09:28,2021-10-06 21:09:31,3.265s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Login/button_Subscribe""))",Chrome 94.0.4606.71,,,2021-10-06 21:09:31,2021-10-06 21:09:32,0.635s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Customer Login/div_Please enter a valid email address. For_90e2b3""), ""Please enter a valid email address. For example johndoe@domain.com."")",Chrome 94.0.4606.71,,,2021-10-06 21:09:32,2021-10-06 21:09:34,2.687s,FAILED

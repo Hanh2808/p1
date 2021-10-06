@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/DN/DN_1","testCaseId":"Test Cases/DN/DN_1","bindedValues":{"pass":"\u0027honghanh28\u0027","user":"\u0027hanh82643@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/DN/DN_2","testCaseId":"Test Cases/DN/DN_2","bindedValues":{"pass":"\u00271234567\u0027","user":"\u0027truonghonghanh2808@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/DN/DN_3","testCaseId":"Test Cases/DN/DN_3","bindedValues":{"user":"\u0027truonghonghanh2808@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/DN/DN_4","testCaseId":"Test Cases/DN/DN_4"}
+{"testCaseName":"Test Cases/DN/DN_5","testCaseId":"Test Cases/DN/DN_5","bindedValues":{"user":"\u0027hanh123@gmail.com\u0027"}}
