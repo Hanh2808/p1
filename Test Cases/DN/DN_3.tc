@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DN_3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d829dfd2-70e0-45ef-83c9-9dfffa200704</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e40b472c-93c5-4028-856f-66b9d47a5f69</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d1ae8030-dcac-4be0-8a0c-ce540f6dfc4e</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 94.0.4606.71,,,2021-10-06 19:38:07,2021-10-06 19:39:46,1m - 38.813s,PASSED
+,,,,,,,
+Test Cases/DN_1,Chrome 94.0.4606.71,,,2021-10-06 19:38:08,2021-10-06 19:39:46,1m - 37.707s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.71,,,2021-10-06 19:38:09,2021-10-06 19:39:00,51.263s,PASSED
+"navigateToUrl(""http://live.techpanda.org/index.php/customer/account/login/"")",Chrome 94.0.4606.71,,,2021-10-06 19:39:00,2021-10-06 19:39:38,37.605s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/input__loginusername""), user)",Chrome 94.0.4606.71,,,2021-10-06 19:39:38,2021-10-06 19:39:41,3.137s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/input__loginpassword""), pass)",Chrome 94.0.4606.71,,,2021-10-06 19:39:41,2021-10-06 19:39:42,0.813s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Login/button_Login""))",Chrome 94.0.4606.71,,,2021-10-06 19:39:42,2021-10-06 19:39:45,3.370s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_My Account/strong_Hello, Hnh Trng""), ""Hello, Háº¡nh TrÆ°Æ¡ng!"")",Chrome 94.0.4606.71,,,2021-10-06 19:39:45,2021-10-06 19:39:46,0.908s,PASSED

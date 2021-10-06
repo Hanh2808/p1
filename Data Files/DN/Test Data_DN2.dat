@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>New Test Data</name>
+   <name>Test Data_DN2</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>4383afff-f3b5-46a9-8697-8323c1b47a6f</dataFileGUID>
+   <dataFileGUID>1f7ff1af-09df-4894-883c-631911ea6996</dataFileGUID>
    <dataSourceUrl>C:\Users\Trang fuji\Katalon Studio\Web_Project\Data Files\DangNhap.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>DN_1</sheetName>
+   <sheetName>DN_2</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

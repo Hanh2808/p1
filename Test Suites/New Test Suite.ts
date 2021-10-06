@@ -12,30 +12,138 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>232ae045-08b2-4478-b2bd-dc8ebd370e79</testSuiteGuid>
    <testCaseLink>
-      <guid>a20292cd-f758-407d-adbc-aec6d0d52198</guid>
+      <guid>abff81ae-1607-49b0-805e-d88693bf4cc3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DN_1</testCaseId>
+      <testCaseId>Test Cases/DN/DN_1</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>562328b8-1395-4bbd-a797-29db8d3f67fc</id>
+         <id>0b63fb98-962e-48fa-9e05-acc0615bb92d</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/New Test Data</testDataId>
+         <testDataId>Data Files/DN/Test Data_DN1</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>562328b8-1395-4bbd-a797-29db8d3f67fc</testDataLinkId>
+         <testDataLinkId>0b63fb98-962e-48fa-9e05-acc0615bb92d</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>user</value>
          <variableId>8f48c50c-86d1-4f12-8d95-832c1718f607</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>562328b8-1395-4bbd-a797-29db8d3f67fc</testDataLinkId>
+         <testDataLinkId>0b63fb98-962e-48fa-9e05-acc0615bb92d</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>pass</value>
          <variableId>8f7c998c-122e-4ec9-9ddf-4de95b60acbb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fc0bd8f7-a2e3-4507-91de-0381cb2dcd2d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DN/DN_2</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fbafd7b0-b62d-430b-82bb-2a45c597e8d8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DN/Test Data_DN2</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fbafd7b0-b62d-430b-82bb-2a45c597e8d8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>user</value>
+         <variableId>48371e89-3b9e-45c9-988e-9ddf6d0e19e7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fbafd7b0-b62d-430b-82bb-2a45c597e8d8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>47b0c98a-d50e-468b-8722-02363c0aa792</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1fea079a-3a82-43b3-80bd-ea82f8c4cedb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DN/DN_3</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>37f0dc0d-57d4-476c-8ea6-df4fca495db8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DN/Test Data_DN3</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>37f0dc0d-57d4-476c-8ea6-df4fca495db8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>user</value>
+         <variableId>e40b472c-93c5-4028-856f-66b9d47a5f69</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>37f0dc0d-57d4-476c-8ea6-df4fca495db8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>d1ae8030-dcac-4be0-8a0c-ce540f6dfc4e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4aa5354f-fa12-4a2f-a420-7f7d52d9af88</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DN/DN_4</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>cf48701e-80da-4ba8-ade5-e79fc539d969</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DN/Test Data_DN4</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>cf48701e-80da-4ba8-ade5-e79fc539d969</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>user</value>
+         <variableId>6be3c426-c023-4bd4-bc29-bcadb167962c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>cf48701e-80da-4ba8-ade5-e79fc539d969</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>860d6ba8-af9a-4068-a215-daf6377961b9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8eb8e013-d1d6-4f75-a445-6aa8ed0072fe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DN/DN_5</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>36d6d31b-0f7f-4211-9f4e-046fc50120dd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DN/Test Data_DN5</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>36d6d31b-0f7f-4211-9f4e-046fc50120dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>user</value>
+         <variableId>13a6dcdd-6310-49a8-88b7-c9b248ffbb0e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>36d6d31b-0f7f-4211-9f4e-046fc50120dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>e49c2aae-23a0-410d-89b5-fd42811a03e6</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

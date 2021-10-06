@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="171.561" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="171.561" skipped="0" timestamp="2021-10-06 19:19:22" hostname="Trang Nina - DESKTOP-999C2HD" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Trang fuji\\git\\p1\\Reports\\20211006_191807\\New Test Suite\\20211006_191907"/>
+         <property name="logFiles" value="C:\\Users\\Trang fuji\\git\\p1\\Reports\\20211006_191807\\New Test Suite\\20211006_191907\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Trang Nina - DESKTOP-999C2HD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.71"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="8023c00fc87c10754fbedf70c05893ee"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DN_1" time="112.812" classname="Test Cases/DN_1" status="PASSED">
+         <system-out><![CDATA[2021-10-06 19:19:31 - [TEST_CASE][PASSED] - Test Cases/DN_1: Test Cases/DN_1
+
+2021-10-06 19:19:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-06 19:19:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-06 19:19:36 - [MESSAGE][INFO] - User set preference: ['arg', '[--disable-gpu]']
+
+2021-10-06 19:19:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-06 19:20:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-06 19:20:52 - [TEST_STEP][PASSED] - navigateToUrl("http://live.techpanda.org/index.php/customer/account/login/"): Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-06 19:21:09 - [MESSAGE][PASSED] - Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-06 19:21:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/input__loginusername"), user): Text 'hanh82643@gmail.com' is set on object 'Object Repository/Page_Customer Login/input__loginusername'
+
+2021-10-06 19:21:14 - [MESSAGE][PASSED] - Text 'hanh82643@gmail.com' is set on object 'Object Repository/Page_Customer Login/input__loginusername'
+
+2021-10-06 19:21:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/input__loginpassword"), pass): Text 'honghanh28' is set on object 'Object Repository/Page_Customer Login/input__loginpassword'
+
+2021-10-06 19:21:18 - [MESSAGE][PASSED] - Text 'honghanh28' is set on object 'Object Repository/Page_Customer Login/input__loginpassword'
+
+2021-10-06 19:21:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Login/button_Login")): Object: 'Object Repository/Page_Customer Login/button_Login' is clicked on
+
+2021-10-06 19:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/button_Login' is clicked on
+
+2021-10-06 19:21:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_My Account/strong_Hello, Hnh Trng"), "Hello, Hạnh Trương!"): Actual text and expected text of test object 'Object Repository/Page_My Account/strong_Hello, Hnh Trng' are matched.
+
+2021-10-06 19:21:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_My Account/strong_Hello, Hnh Trng' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-06 19:19:22 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/DN_1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
