@@ -18,7 +18,7 @@
       <testCaseId>Test Cases/NewLetter/New_1</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>614f7e47-aba3-4cf4-8e41-c3ec9da39a6f</id>
+         <id>e131eb3b-a5b7-445e-a68c-cf785956dd03</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -26,7 +26,7 @@
          <testDataId>Data Files/New/Test Data_New1</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>614f7e47-aba3-4cf4-8e41-c3ec9da39a6f</testDataLinkId>
+         <testDataLinkId>e131eb3b-a5b7-445e-a68c-cf785956dd03</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>email</value>
          <variableId>f5948642-9edb-44ea-97d4-0d61c495fa7a</variableId>

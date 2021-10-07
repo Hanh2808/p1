@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite_New,,,,2021-10-07 19:57:27,2021-10-07 19:58:29,1m - 2.157s,FAILED
+,,,,,,,
+Test Cases/NewLetter/New_1,,,,2021-10-07 19:57:29,2021-10-07 19:58:18,49.293s,FAILED
+"openBrowser("""")",,,,2021-10-07 19:57:29,2021-10-07 19:58:18,48.410s,FAILED
+,,,,,,,
+Test Cases/NewLetter/New_2,,,,2021-10-07 19:58:18,2021-10-07 19:58:25,7.119s,FAILED
+"openBrowser("""")",,,,2021-10-07 19:58:18,2021-10-07 19:58:25,6.674s,FAILED
+,,,,,,,
+Test Cases/NewLetter/New_3,,,,2021-10-07 19:58:25,2021-10-07 19:58:29,4.345s,FAILED
+"openBrowser("""")",,,,2021-10-07 19:58:25,2021-10-07 19:58:29,3.974s,FAILED

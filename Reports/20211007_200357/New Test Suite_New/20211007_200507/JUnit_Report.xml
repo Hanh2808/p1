@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite_New" time="221.508" tests="3" failures="0" errors="0">
+   <testsuite name="New Test Suite_New" tests="3" failures="0" errors="0" time="221.508" skipped="0" timestamp="2021-10-07 20:05:27" hostname="Trang Nina - DESKTOP-999C2HD" id="Test Suites/New Test Suite_New">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Trang fuji\\git\\p1\\Reports\\20211007_200357\\New Test Suite_New\\20211007_200507"/>
+         <property name="logFiles" value="C:\\Users\\Trang fuji\\git\\p1\\Reports\\20211007_200357\\New Test Suite_New\\20211007_200507\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Trang Nina - DESKTOP-999C2HD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.71"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="e7fe4e43a6bce592ab8b1c4d3efd112a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/NewLetter/New_1" time="99.708" classname="Test Cases/NewLetter/New_1" status="PASSED">
+         <system-out><![CDATA[2021-10-07 20:05:28 - [TEST_CASE][PASSED] - Test Cases/NewLetter/New_1: Test Cases/NewLetter/New_1
+
+2021-10-07 20:05:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-07 20:05:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-07 20:05:31 - [MESSAGE][INFO] - User set preference: ['arg', '[--disable-gpu]']
+
+2021-10-07 20:05:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-07 20:06:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-07 20:06:38 - [TEST_STEP][PASSED] - navigateToUrl("http://live.techpanda.org/index.php/customer/account/login/"): Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-07 20:06:49 - [MESSAGE][PASSED] - Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-07 20:06:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/input_Sign Up for Our Newsletter_email"), email): Text 'ht2474@gmail.com' is set on object 'Object Repository/Page_Customer Login/input_Sign Up for Our Newsletter_email'
+
+2021-10-07 20:07:01 - [MESSAGE][PASSED] - Text 'ht2474@gmail.com' is set on object 'Object Repository/Page_Customer Login/input_Sign Up for Our Newsletter_email'
+
+2021-10-07 20:07:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Login/button_Subscribe")): Object: 'Object Repository/Page_Customer Login/button_Subscribe' is clicked on
+
+2021-10-07 20:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/button_Subscribe' is clicked on
+
+2021-10-07 20:07:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Customer Login/span_Thank you for your subscription"), "Thank you for your subscription."): Actual text and expected text of test object 'Object Repository/Page_Customer Login/span_Thank you for your subscription' are matched.
+
+2021-10-07 20:07:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Customer Login/span_Thank you for your subscription' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewLetter/New_2" time="63.327" classname="Test Cases/NewLetter/New_2" status="PASSED">
+         <system-out><![CDATA[2021-10-07 20:07:08 - [TEST_CASE][PASSED] - Test Cases/NewLetter/New_2: Test Cases/NewLetter/New_2
+
+2021-10-07 20:07:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-07 20:07:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-07 20:07:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-07 20:07:12 - [MESSAGE][INFO] - User set preference: ['arg', '[--disable-gpu]']
+
+2021-10-07 20:07:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-07 20:07:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-07 20:07:55 - [TEST_STEP][PASSED] - navigateToUrl("http://live.techpanda.org/index.php/customer/account/login/"): Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-07 20:08:04 - [MESSAGE][PASSED] - Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-07 20:08:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/input_Sign Up for Our Newsletter_email"), email): Text '' is set on object 'Object Repository/Page_Customer Login/input_Sign Up for Our Newsletter_email'
+
+2021-10-07 20:08:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Customer Login/input_Sign Up for Our Newsletter_email'
+
+2021-10-07 20:08:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Login/button_Subscribe")): Object: 'Object Repository/Page_Customer Login/button_Subscribe' is clicked on
+
+2021-10-07 20:08:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/button_Subscribe' is clicked on
+
+2021-10-07 20:08:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Customer Login/div_This is a required field"), "THIS IS A REQUIRED FIELD."): Actual text and expected text of test object 'Object Repository/Page_Customer Login/div_This is a required field' are matched.
+
+2021-10-07 20:08:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Customer Login/div_This is a required field' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewLetter/New_3" time="33.237" classname="Test Cases/NewLetter/New_3" status="PASSED">
+         <system-out><![CDATA[2021-10-07 20:08:11 - [TEST_CASE][PASSED] - Test Cases/NewLetter/New_3: Test Cases/NewLetter/New_3
+
+2021-10-07 20:08:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-07 20:08:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-07 20:08:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-07 20:08:14 - [MESSAGE][INFO] - User set preference: ['arg', '[--disable-gpu]']
+
+2021-10-07 20:08:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-07 20:08:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-07 20:08:33 - [TEST_STEP][PASSED] - navigateToUrl("http://live.techpanda.org/index.php/customer/account/login/"): Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-07 20:08:40 - [MESSAGE][PASSED] - Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-07 20:08:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/input_Sign Up for Our Newsletter_email"), email): Text 'hanh2808@gmail.com1' is set on object 'Object Repository/Page_Customer Login/input_Sign Up for Our Newsletter_email'
+
+2021-10-07 20:08:42 - [MESSAGE][PASSED] - Text 'hanh2808@gmail.com1' is set on object 'Object Repository/Page_Customer Login/input_Sign Up for Our Newsletter_email'
+
+2021-10-07 20:08:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Login/button_Subscribe")): Object: 'Object Repository/Page_Customer Login/button_Subscribe' is clicked on
+
+2021-10-07 20:08:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/button_Subscribe' is clicked on
+
+2021-10-07 20:08:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Customer Login/div_Please enter a valid email address. For_90e2b3"), "PLEASE ENTER A VALID EMAIL ADDRESS. FOR EXAMPLE JOHNDOE@DOMAIN.COM."): Actual text and expected text of test object 'Object Repository/Page_Customer Login/div_Please enter a valid email address. For_90e2b3' are matched.
+
+2021-10-07 20:08:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Customer Login/div_Please enter a valid email address. For_90e2b3' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-07 20:05:27 - [TEST_SUITE][PASSED] - New Test Suite_New: Test Cases/NewLetter/New_3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
