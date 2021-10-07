@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite_New,Chrome 94.0.4606.71,,,2021-10-07 07:50:05,2021-10-07 07:53:15,3m - 9.947s,FAILED
+,,,,,,,
+Test Cases/NewLetter/New_1,Chrome 94.0.4606.71,,,2021-10-07 07:50:06,2021-10-07 07:51:01,55.167s,FAILED
+"openBrowser("""")",Chrome 94.0.4606.71,,,2021-10-07 07:50:07,2021-10-07 07:50:47,40.071s,FAILED
+,,,,,,,
+Test Cases/NewLetter/New_2,Chrome 94.0.4606.71,,,2021-10-07 07:51:02,2021-10-07 07:52:50,1m - 48.310s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.71,,,2021-10-07 07:51:02,2021-10-07 07:52:28,1m - 26.383s,PASSED
+"navigateToUrl(""http://live.techpanda.org/index.php/customer/account/login/"")",Chrome 94.0.4606.71,,,2021-10-07 07:52:28,2021-10-07 07:52:46,17.667s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/input_Sign Up for Our Newsletter_email""), email)",Chrome 94.0.4606.71,,,2021-10-07 07:52:46,2021-10-07 07:52:49,2.711s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Login/button_Subscribe""))",Chrome 94.0.4606.71,,,2021-10-07 07:52:49,2021-10-07 07:52:49,0.594s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Customer Login/div_This is a required field""), ""THIS IS A REQUIRED FIELD."")",Chrome 94.0.4606.71,,,2021-10-07 07:52:49,2021-10-07 07:52:50,0.531s,PASSED
+,,,,,,,
+Test Cases/NewLetter/New_3,Chrome 94.0.4606.71,,,2021-10-07 07:52:50,2021-10-07 07:53:15,24.983s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.71,,,2021-10-07 07:52:50,2021-10-07 07:53:02,12.200s,PASSED
+"navigateToUrl(""http://live.techpanda.org/index.php/customer/account/login/"")",Chrome 94.0.4606.71,,,2021-10-07 07:53:02,2021-10-07 07:53:11,8.290s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/input_Sign Up for Our Newsletter_email""), email)",Chrome 94.0.4606.71,,,2021-10-07 07:53:11,2021-10-07 07:53:13,2.695s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Login/button_Subscribe""))",Chrome 94.0.4606.71,,,2021-10-07 07:53:13,2021-10-07 07:53:14,0.599s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Customer Login/div_Please enter a valid email address. For_90e2b3""), ""PLEASE ENTER A VALID EMAIL ADDRESS. FOR EXAMPLE JOHNDOE@DOMAIN.COM."")",Chrome 94.0.4606.71,,,2021-10-07 07:53:14,2021-10-07 07:53:15,0.885s,PASSED
